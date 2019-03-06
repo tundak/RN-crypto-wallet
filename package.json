@@ -1,0 +1,37 @@
+{
+  "name": "wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "16.6.3",
+    "react-native": "0.58.4",
+    "react-native-a-beep": "^1.0.1",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-camera": "^1.11.2",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-elements": "^1.0.0",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-qrcode-scanner": "^1.1.2",
+    "react-native-qrcode-svg": "^5.1.2",
+    "react-native-svg": "^9.2.4",
+    "react-native-touch-id": "^4.4.1",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.2.1",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
